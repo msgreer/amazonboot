@@ -1,0 +1,31 @@
+.logo {
+    text-align: center;
+}
+.sign {
+    margin-left: 55px;
+    border-top: 3px style=solid color=black;
+}
+.mb-3 {
+    width: 300px;
+    margin: auto;
+}
+
+.password {
+    width: 300px;
+    margin: auto;
+}
+
+.forgot {
+    text-align: right;
+    
+}
+
+.new {
+    text-align: center;
+    text-size-adjust: smaller;
+}
+
+.create {
+    text-align: center;
+}
+

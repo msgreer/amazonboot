@@ -1,0 +1,53 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: 200px 400px 200px;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-areas: 
+    ". logo ."
+    "Sign--In . ."
+    "Email Email ."
+    "form1 form1 form1"
+    "password forgot ."
+    "form2 form2 form2"
+    "button button button"
+    "terms terms terms"
+    "terms terms terms"
+    "keep keep keep"
+    "new new new"
+    "create create create"; 
+}
+
+.logo { 
+    grid-area: logo; }
+.Sign--In { 
+    grid-area: Sign--In;
+    text-align: center;
+    
+
+ }
+.Email { 
+    grid-area: Email;
+    text-align: left;
+
+ }
+.form1 { 
+    grid-area: form1; }
+.password { 
+    grid-area: password; }
+.forgot { 
+    grid-area: forgot; }
+.form2 { 
+    grid-area: form2; }
+.button { 
+    grid-area: button; }
+.terms { 
+    grid-area: terms; }
+.keep { 
+    grid-area: keep; }
+.new { 
+    grid-area: new; }
+.create { 
+    grid-area: create; }
+
+
+
